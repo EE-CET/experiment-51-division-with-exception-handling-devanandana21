@@ -10,7 +10,7 @@ import java.util.Scanner;
                 int result=a/b;
                 System.out.println("Result:" + result);
             }catch (ArithmeticException e){
-                System.out.println("Division by zero error");
+                System.out.println("Divide by zero error");
             }
         }
     }
