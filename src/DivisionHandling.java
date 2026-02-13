@@ -1,4 +1,4 @@
-import java.util.scanner
+import java.util.scanner;
     public class DivideNumberse{
         public static void main(String[] args){
             Scanner sc= new Scanner(System.in);
