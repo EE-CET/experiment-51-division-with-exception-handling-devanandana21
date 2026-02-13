@@ -1,5 +1,5 @@
 import java.util.scanner;
-    public class DivideNumberse{
+    public class DivisionHandling{
         public static void main(String[] args){
             Scanner sc= new Scanner(System.in);
             System.out.println("Enter first integer: ");
