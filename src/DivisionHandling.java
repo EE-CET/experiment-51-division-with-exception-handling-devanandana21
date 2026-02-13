@@ -7,7 +7,7 @@ import java.util.scanner;
             System.out.println("Enter second integer: ");
             int b=sc.nextInt();
             try{
-                result=a/b;
+                int result=a/b;
                 System.out.println("Result:" + result);
             }catch (ArithmeticException e){
                 System.out.println("Division by zero error");
