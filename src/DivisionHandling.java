@@ -1,11 +1,16 @@
-import java.util.Scanner;
-
-public class DivisionHandling {
-    
-        // TODO: Read two integers a and b
-        
-        // TODO: Enclose the division in a try block
-        
-        // TODO: Catch ArithmeticException
-        
-}
+import java.util.scanner
+    public class DivideNumberse{
+        public static void main(String[] args){
+            Scanner sc= new Scanner(System.in);
+            System.out.println("Enter first integer: ");
+            int a=sc.nextInt();
+            System.out.println("Enter second integer: ");
+            int b=sc.nextInt();
+            try{
+                result=a/b;
+                System.out.println("Result:" + result);
+            }catch (ArithmeticException e){
+                System.out.println("Division by zero error");
+            }
+        }
+    }
